@@ -1,4 +1,4 @@
-import { controlCornerRadius, fillColor, layerCornerRadius } from '@fluentui/web-components';
+import { fillColor } from '@fluentui/web-components';
 import { css, customElement, FASTElement, html } from '@microsoft/fast-element';
 import { display } from '@microsoft/fast-foundation';
 

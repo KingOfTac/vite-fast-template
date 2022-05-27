@@ -1,4 +1,4 @@
-import { fillColor, neutralLayer2, neutralLayer3 } from '@fluentui/web-components';
+import { neutralLayer2 } from '@fluentui/web-components';
 import { css, html } from '@microsoft/fast-element';
 import { FASTElementLayout } from '@microsoft/fast-router';
 import { githubIcon, homeIcon, fastIcon } from '../icons';
