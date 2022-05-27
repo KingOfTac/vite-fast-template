@@ -7,9 +7,9 @@
     "apps/*"
   ],
   "scripts": {
-    "start:dev": "yarn workspace dev vite",
-    "build": "yarn workspace dev build",
-    "preview": "yarn workspace dev preview"
+    "start:dev": "yarn apps/dev vite",
+    "build": "yarn apps/dev build",
+    "preview": "yarn apps/dev preview"
   },
   "devDependencies": {
     "tslib": "^2.4.0",
