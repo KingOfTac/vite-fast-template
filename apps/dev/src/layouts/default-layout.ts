@@ -6,7 +6,7 @@ import { githubIcon, homeIcon, fastIcon } from '../icons';
 export const DefaultLayout = new FASTElementLayout(
 	html`
 		<header>
-			<fluent-anchor class="page-title" href="/">
+			<fluent-anchor class="page-title" href="/vite-fast-template/">
 				<h1>FAST Starter</h1>
 			</fluent-anchor>
 			<fluent-anchor
@@ -18,7 +18,7 @@ export const DefaultLayout = new FASTElementLayout(
 			</fluent-anchor>
 		</header>
 		<nav>
-			<fluent-anchor href="/">
+			<fluent-anchor href="/vite-fast-template/">
 				${homeIcon('start')}
 				Home
 			</fluent-anchor>
