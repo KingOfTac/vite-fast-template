@@ -6,7 +6,7 @@ import { display } from '@microsoft/fast-foundation';
 	name: "home-page",
 	template: html`
 		<section class="scroller">
-			<fluent-horizontal-scroll>
+			<fluent-horizontal-scroll ${x => x.view === 'mobile' ? `view="${x.view}"` : ''}>
 				<fluent-card>
 					<img src="https://placeimg.com/250/300/animals?random=1">
 				</fluent-card>
@@ -136,5 +136,5 @@ import { display } from '@microsoft/fast-foundation';
 	`
 })
 export class HomePage extends FASTElement {
-	
+
 }

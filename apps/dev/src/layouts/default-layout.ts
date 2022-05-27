@@ -1,5 +1,6 @@
 import { neutralLayer2 } from '@fluentui/web-components';
 import { css, html } from '@microsoft/fast-element';
+import { MatchMediaStyleSheetBehavior } from '@microsoft/fast-foundation';
 import { FASTElementLayout } from '@microsoft/fast-router';
 import { githubIcon, homeIcon, fastIcon } from '../icons';
 
@@ -95,5 +96,18 @@ export const DefaultLayout = new FASTElementLayout(
 		.gh-link {
 			font-size: var(--type-ramp-plus-4-font-size);
 		}
-	`
+	`.withBehaviors(
+		new MatchMediaStyleSheetBehavior(
+			window.matchMedia('(max-width: 800px)'),
+			css`
+				:host {
+					grid-template-columns: 1fr;
+				}
+
+				nav {
+					display: none;
+				}
+			`
+		)
+	)
 )
