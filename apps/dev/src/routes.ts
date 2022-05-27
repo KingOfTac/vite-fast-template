@@ -8,8 +8,8 @@ export class AppRouterConfiguration extends RouterConfiguration {
 		this.defaultLayout = DefaultLayout;
 
 		this.routes.map(
-			{ path: '', redirect: 'home' },
-			{ path: 'home', title: 'Home', element: HomePage }
+			{ path: 'vite-fast-template', redirect: 'home' },
+			{ path: 'vite-fast-template/home', name: 'home', title: 'Home', element: HomePage }
 		)
 	}
 }
