@@ -1,0 +1,56 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Roboto Flex';
+  src: url('/RobotoFlex.ttf');
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto Flex';
+}
+
+body {
+  font-size: var(--type-ramp-base-font-size);
+  font-variation-settings: var(--type-ramp-base-font-variations);
+  overflow: hidden;
+}
+
+h1 {
+  font-size: var(--type-ramp-plus-6-font-size);
+  font-variation-settings: var(--type-ramp-plus-6-font-variations);
+}
+
+h2 {
+  font-size: var(--type-ramp-plus-5-font-size);
+  font-variation-settings: var(--type-ramp-plus-5-font-variations);
+}
+
+h3 {
+  font-size: var(--type-ramp-plus-4-font-size);
+  font-variation-settings: var(--type-ramp-plus-4-font-variations);
+}
+
+h4 {
+  font-size: var(--type-ramp-plus-3-font-size);
+  font-variation-settings: var(--type-ramp-plus-3-font-variations);
+}
+
+h5 {
+  font-size: var(--type-ramp-plus-2-font-size);
+  font-variation-settings: var(--type-ramp-plus-2-font-variations);
+}
+
+h6 {
+  font-size: var(--type-ramp-plus-1-font-size);
+  font-variation-settings: var(--type-ramp-plus-1-font-variations);
+}
